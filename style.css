@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 h1 {
   font-family: 'Permanent Marker', cursive;
   text-align: center;
@@ -8,6 +12,8 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 img {
@@ -16,6 +22,7 @@ img {
 
 section {
   display: inline-block;
+  margin-left: 10px;
 }
 
 article {
@@ -47,6 +54,19 @@ article {
 }
 
 .Dog-And-Wolf {
+  display: inline;
+}
+
+.Three-Different-Dogs {
+  display: flex;
+  flex-direction: row
+}
+
+.Gold-and-Bull {
+  display: block;
+}
+
+.Cute-Dogs {
   display: inline;
 }
 
@@ -176,13 +196,13 @@ article {
 
 .Chow-Chow {
   width: 450px;
-  height: 550px;
+  height: 400px;
   object-fit: cover;
 }
 
 .Cheaspeake-Bay-Retreiver {
   height: 400px;
-  width: 1000px;
+  width: 950px;
   object-fit: cover;
 }
 
@@ -193,16 +213,57 @@ article {
 
 .Mexican-Grey-Wolf {
   height: 550px;
-  width: 975px;
+  width: 970px;
   object-fit: cover;
 }
 
+.Golden-Retreiver {
+  width: 720px;
+  height: 400px;
+  object-fit: cover;
+  margin-left: 5px;
+}
 
+.Bull-Terrier {
+  height: 888px;
+  width: 720px;
+  object-fit: cover;
+  margin-left: 5px;
+}
 
+.German-Shorthaired-Pointer {
+  object-fit: cover;
+  width: 720px;
+  height: 1300px;
+  /* height: 750px; */
+  /* margin-bottom: 5px; */
+}
 
+.Mastiff {
+  width: 1413px;
+  object-fit: cover;
+  /* margin-top: 5px; */
+}
 
-.
+.Great-Pyrenees {
+  height: 475px;
+  width: 475px;
+  object-fit: cover
+}
 
+.German-Shepherd-Lab-Mix {
+  height: 475px;
+  object-fit: cover;
+}
 
+.Samoyed {
+  height: 475px;
+  width: 535px;
+  object-fit: cover;
+}
 
-.
+.Howling-Wolf {
+  height: 1800px;
+  width: 1420px;
+  object-fit: cover;
+}
